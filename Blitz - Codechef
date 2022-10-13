@@ -1,0 +1,17 @@
+//Code for Blitz problem in Codechef 
+
+#include <stdio.h>
+
+int main(void) 
+{
+    int t;
+    scanf("%d",&t);
+    while (t--)
+    {
+        int n,a,b;
+        scanf("%d %d %d",&n,&a,&b);
+        printf("%d\n",(2*(180+n))-(a+b));
+    }
+	return 0;
+}
+
