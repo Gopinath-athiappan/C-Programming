@@ -1,0 +1,13 @@
+//To check the bit status of given data 
+
+#include <stdio.h>
+
+int main()
+{
+    int data,bit;
+    scanf("%d %d",&data,&bit);
+    if((data & (1<<bit))==0)
+    printf("%d bit of given data is 0",bit);
+    else
+    printf("%d bit of given data is 1",bit);
+}
