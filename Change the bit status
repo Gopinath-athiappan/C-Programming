@@ -1,0 +1,27 @@
+// To change the bit status of given data
+
+#include <stdio.h>
+int main()
+{
+    int data,bit;
+    scanf("%d %d",&data,&bit);
+    if((data & (1<<bit))==0)
+    //printf("%d",data&(1<<bit));
+    printf("%d",data|(1<<bit));
+    else
+   // printf("%d",data|(1<<bit));
+    printf("%d",data&(1<<bit));
+}
+
+
+// ANOTHER METHOD
+
+
+#include <stdio.h>
+int main()
+{
+    int data,bit;
+    scanf("%d %d",&data,&bit);
+    printf("%d",data^(1<<bit));
+}
+
