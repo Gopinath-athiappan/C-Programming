@@ -1,5 +1,6 @@
 //To check the bit status of given data 
 
+
 #include <stdio.h>
 
 int main()
